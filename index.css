@@ -1,0 +1,94 @@
+body {
+    background-image: url("Desturi.jpg");
+    background-size: cover;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: normal;
+    color: rgb(39, 97, 110);
+    forced-color-adjust: rgb(22, 22, 147);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.container {
+    background: rgba(48, 50, 99, 0.518);
+    margin: auto;
+    border:3px solid black;
+    border-radius: 20px;
+    max-block-size: 100%;
+    height: 70%; /* Extend widthwise */
+    max-height: 70%;
+    width:50% ;
+    max-width:50% ;
+    
+
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: aliceblue;
+}
+
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    
+    
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#increment-btn {
+    background: darkred;
+    /* Hover effect */
+    transition: background-color 0.3s ease;
+}
+
+#increment-btn:hover {
+    background-color: red; /* Change to a lighter shade of red on hover */
+}
+
+#save-btn {
+    background: darkgreen;
+    /* Hover effect */
+    transition: background-color 0.3s ease;
+}
+
+#save-btn:hover {
+    background-color: green; /* Change to a lighter shade of green on hover */
+}
+
+footer{
+    color:aliceblue
+}
+
+a {
+    color: rgb(62, 93, 93);
+    transition: color 0.3s ease; /* Transition color over 0.3 seconds with ease */
+}
+
+a:hover {
+    color: rgb(32, 169, 98); /* Change to a different color on hover */
+}
